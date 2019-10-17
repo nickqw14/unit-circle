@@ -1,5 +1,8 @@
 .xAxis {
-	width: 100%;
+	width: 90vw;
 	height: 1px;
 	background-color: black;
+	max-width: 600px;
+	min-width: 280px;
+	position: absolute;
 }
