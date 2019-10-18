@@ -4,6 +4,7 @@ import styles from "./styles/outerCircle.module.scss";
 import Xaxis from "./components/Xaxis";
 import Yaxis from "./components/Yaxis";
 import InnerCircle from "../InnerCircle/InnerCircle";
+// Change the circles to SVG's
 
 function OuterCircle() {
 	return (
