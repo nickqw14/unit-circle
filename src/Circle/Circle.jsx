@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
+import { useWindowSize } from "./hooks/useWindowSize";
 import styles from "./styles/circle.module.scss";
 
 import Angle from "./components/Angle";
@@ -10,6 +11,8 @@ function Circle() {
 		const width = ref.current ? ref.current.offsetWidth : 0;
 		setRadius(width / 2);
 	});
+
+	const [width, height] = useWindowSize();
 	const angles = [
 		0,
 		-30,
