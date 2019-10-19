@@ -1,11 +1,12 @@
 import React from "react";
-import OuterCircle from "./OuterCircle/OuterCircle";
 import "./App.css";
+
+import OuterContainer from "./OuterContainer/OuterContainer";
 
 function App() {
 	return (
 		<div className="App">
-			<OuterCircle />
+			<OuterContainer />
 		</div>
 	);
 }
